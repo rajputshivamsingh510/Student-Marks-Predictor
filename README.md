@@ -1,16 +1,16 @@
-# 🎓 Student Marks Predictor
+#  Student Marks Predictor
 
 A simple machine learning project that predicts student exam scores based on the number of hours they studied. This project uses Linear Regression and KNN Regression to analyze and compare performance.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Given the number of study hours, predict the score a student is likely to achieve in an exam. This is a supervised regression problem using a simple dataset.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Name:** Student Scores Dataset  
 - **Source:** [Kaggle – mexwell/student-scores](https://www.kaggle.com/datasets/mexwell/student-scores)
@@ -20,37 +20,35 @@ Given the number of study hours, predict the score a student is likely to achiev
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 
-- 📈 Linear Regression
-- 📊 K-Nearest Neighbors (KNN) Regression
+-  Linear Regression
+-  K-Nearest Neighbors (KNN) Regression
 
 ---
 
-## 🛠️ Technologies
+## 🛠 Technologies
 
-- Python 🐍
+- Python 
 - pandas
 - matplotlib
 - scikit-learn
-- (Optional) Streamlit for web app
-
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 | Metric        | Linear Regression | KNN Regression |
 |---------------|-------------------|----------------|
 | Mean Squared Error (MSE) | 30.87 | 32.21 |
 | R² Score      | 0.28              | 0.25           |
 
-🔍 **Interpretation:**
+ **Interpretation:**
 - Both models show moderate performance.
 - Linear Regression slightly outperforms KNN, which is expected due to the linear nature of the data.
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Scatter plot of study hours vs scores
 - Regression line (for Linear Regression)
@@ -58,7 +56,7 @@ Given the number of study hours, predict the score a student is likely to achiev
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo:
    ```bash
